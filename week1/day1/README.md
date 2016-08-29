@@ -1,7 +1,6 @@
 # Week 1 - Day 1 Assignments
 
-Create a folder with your Github username
-Create a file for each question named after the question's number.
+Submit a pull request to submit your work
 
 ## JavaScript Basics
 
@@ -18,7 +17,7 @@ Write a for-loop that makes seven calls to `console.log` to output the following
 #######
 ```
 
-You can find the length of a string by writing `.length` after it.
+You can find the length of a string by writing `.length` after it. You may use `console.log` once.
 
 ```javascript
 console.log("taco".length);
@@ -32,7 +31,7 @@ Exceptions:
   1. For numbers divisible by 3, print "Fizz" instead of the number.
   2. For numbers divisible by 5 (and not 3), print "Buzz" instead.
 
-When you have that working, modify your program to print "FizzBuzz", for numbers that are divisible by both 3 and 5 (and still print "Fizz" or "Buzz" for numbers divisible by only one of those).
+When you have that working, modify your program to print "FizzBuzz", for numbers that are divisible by **both** 3 and 5.
 
 ### 3. Chess board
 
@@ -55,9 +54,10 @@ When you have a program that generates this pattern, define a variable size = 8 
 
 Requirements:
 - You can only `console.log` once
+- Creates 8x8 grid
+- Can dynamically create a grid from variable
 
 Bonus Requirements:
 - Only use two variables (this includes the variables in the loops)
--
 
 HINT: You will need a loop inside of a loop

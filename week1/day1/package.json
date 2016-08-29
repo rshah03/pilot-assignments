@@ -1,0 +1,20 @@
+{
+  "name": "week1-day1",
+  "version": "1.0.0",
+  "description": "Create a folder with your Github username Create a file for each question named after the question's number.",
+  "main": "1.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "mocha test"
+  },
+  "author": "",
+  "license": "UNLICENSED",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^3.0.2",
+    "sinon": "^1.17.5",
+    "sinon-chai": "^2.8.0"
+  }
+}
