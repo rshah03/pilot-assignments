@@ -4,6 +4,7 @@ var sinonChai = require('sinon-chai');
 var expect = chai.expect;
 var mocha = require('mocha');
 var triangle = require('../1');
+var console = require('../lib/consolelog.js');
 
 chai.use(sinonChai);
 

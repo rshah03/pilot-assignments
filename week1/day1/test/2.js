@@ -5,7 +5,7 @@ var expect = chai.expect;
 var mocha = require('mocha');
 var fizzbuzz = require('../2');
 var solution = require('./FizzBuzz');
-var console = {log: args => args}
+var console = require('../lib/consolelog.js');
 
 chai.use(sinonChai);
 
