@@ -4,7 +4,6 @@ var sinonChai = require('sinon-chai');
 var expect = chai.expect;
 var mocha = require('mocha');
 var triangle = require('../1');
-var console = {log: args => args}
 
 chai.use(sinonChai);
 
@@ -22,8 +21,8 @@ describe('Create a triangle 7 rows deep', function() {
     var solutionTriangle = ["#","##","###","####","#####","######","#######"];
 
     triangle();
-    solutionTriangle.forEach((value, index) => (
+    solutionTriangle.forEach((value, index) => {
       expect(console.log.getCall(index).args[0]).to.equal(value)
-    ))
+    })
   });
 });
