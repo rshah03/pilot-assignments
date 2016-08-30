@@ -17,7 +17,7 @@ Write a for-loop that makes seven calls to `console.log` to output the following
 #######
 ```
 
-You can find the length of a string by writing `.length` after it. You may use `console.log` once.
+You can find the length of a string by writing `.length` after it.
 
 ```javascript
 console.log("taco".length);
