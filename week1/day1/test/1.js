@@ -22,7 +22,7 @@ describe('Create a triangle 7 rows deep', function() {
 
     triangle();
     solutionTriangle.forEach((value, index) => {
-      expect(console.log.getCall(index).args[0]).to.equal(value)
+      expect(console.log.getCall(index).returned(sinon.match.same(value)))
     })
   });
 });
