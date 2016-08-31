@@ -1,7 +1,9 @@
 var console = require('./lib/consolelog.js');
 
 module.exports = function triangle() {
-  for (var i = 1; i <= 7; i++) {
-    console.log('#'.repeat(i))
+  var x = '#######'
+  for (var i = 0; i < 7; i++) {
+    console.log(x)
+    x += '#'
   }
 }
