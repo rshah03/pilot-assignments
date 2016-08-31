@@ -21,21 +21,21 @@ describe('Create a chessboard', function() {
   it('should create a 8x8 chess board', function() {
     var solutionBoard = '# # # # \n # # # #\n# # # # \n # # # #\n# # # # \n # # # #\n# # # # \n # # # #'
 
-    chessboard();
+    chessboard(8);
     expect(console.log).to.be.calledWithExactly(solutionBoard);
   });
 
   it('should create a 4x4 chess board', function() {
     var solutionBoard = '# # \n # #\n# # \n # #'
 
-    chessboard();
+    chessboard(4);
     expect(console.log).to.be.calledWithExactly(solutionBoard);
   });
 
   it('should create a 2x2 chess board', function() {
     var solutionBoard = '# \n #'
 
-    chessboard();
+    chessboard(2);
     expect(console.log).to.be.calledWithExactly(solutionBoard);
   });
 
